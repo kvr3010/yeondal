@@ -33,6 +33,7 @@ public class Oper {
 		return resultt;
 	}
 	
+	
 	public boolean oper(ArrayList<Integer> list, int select) {
 		int corr = 0;
 			if(select == 1) {
@@ -49,8 +50,6 @@ public class Oper {
 				corr = list.get(0) + list.get(1);
 			}
 
-			
-			
 			if(corr == ip.asw()) {
 				System.out.println("정답입니다.");
 				return true;
