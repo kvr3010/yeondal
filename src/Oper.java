@@ -49,7 +49,7 @@ public class Oper {
 				corr = list.get(0) + list.get(1);
 			}
 
-			}
+			
 			
 			if(corr == ip.asw()) {
 				System.out.println("정답입니다.");
