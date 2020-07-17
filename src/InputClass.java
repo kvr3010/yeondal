@@ -10,7 +10,6 @@ public class InputClass {
 	public void start() {
 		Oper op = new Oper();
 		
-		
 		for(;;) {
 		try {
 			Scanner sc = new Scanner(System.in);

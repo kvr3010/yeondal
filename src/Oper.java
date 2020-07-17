@@ -20,20 +20,6 @@ public class Oper {
 	}
 	
 	
-	
-	public ArrayList<Integer> end(Boolean comm) {
-		ArrayList<Integer> resultt = new ArrayList<Integer>();
-		if(comm) {
-			o++;
-			resultt.add(0, o);
-		}else {
-			x++;
-			resultt.add(1, x);
-		}
-		return resultt;
-	}
-	
-	
 	public boolean oper(ArrayList<Integer> list, int select) {
 		int corr = 0;
 			if(select == 1) {
