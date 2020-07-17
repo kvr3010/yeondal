@@ -47,8 +47,7 @@ public class Oper {
 			}else if(select ==4) {
 				System.out.print(list.get(0) + "/" + list.get(1) + "=" );
 				corr = list.get(0) + list.get(1);
-			}else if(select ==0) {
-				System.out.println("종료");
+			}
 
 			}
 			
